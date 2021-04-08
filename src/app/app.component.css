@@ -33,5 +33,5 @@
   height: 100vh;
   align-items: flex-end;
   position: relative;
-  z-index: 2;
+  background: url("./../assets/images/pattern-hills.svg") no-repeat bottom;
 }
