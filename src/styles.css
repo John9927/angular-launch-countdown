@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+body {
+  font-family: 'Red Hat Text';
+  background: rgb(30,31,41);
+  background: linear-gradient(180deg, rgba(30,31,41,1) 0%, #2F2439 92%);
+  font-size: 62.5%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+*,*::after,*::before{
+  padding: unset;
+  margin: unset;
+  box-sizing: border-box;
+}

@@ -1,0 +1,37 @@
+/* Stars */
+.stars__image {
+  position: fixed;
+}
+
+/* Countdown */
+.container__countdown {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  justify-content: center;
+  margin-top: 100px;
+  z-index: 3;
+}
+
+.countdown__span {
+  display: flex;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+  transform: scale(2,2);
+  margin-bottom: 70px;
+  z-index: 3;
+  justify-content: center;
+}
+
+/* Footer */
+.footer__image {
+  display: flex;
+  height: 100vh;
+  align-items: flex-end;
+  position: relative;
+  z-index: 2;
+}
