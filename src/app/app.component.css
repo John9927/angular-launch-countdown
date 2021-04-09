@@ -1,6 +1,10 @@
 /* Stars */
 .stars__image {
+  background: url("./../assets/images/bg-stars.svg");
   position: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
 }
 
 /* Countdown */
@@ -16,15 +20,14 @@
 
 .countdown__span {
   display: flex;
-  font-size: 12px;
+  font-size: 23px;
   text-transform: uppercase;
   font-weight: bold;
   color: white;
   width: 100%;
-  transform: scale(2,2);
-  margin-bottom: 70px;
-  z-index: 3;
   justify-content: center;
+  margin: auto;
+  text-align: center;
 }
 
 /* Footer */
@@ -34,4 +37,14 @@
   align-items: flex-end;
   position: relative;
   background: url("./../assets/images/pattern-hills.svg") no-repeat bottom;
+}
+
+@media screen and (max-width: 400px) {
+  .footer__image {
+    background-size: 1000px;
+  }
+
+  .countdown__span {
+    width: 70%;
+  }
 }
