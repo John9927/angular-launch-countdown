@@ -37,6 +37,7 @@
   align-items: flex-end;
   position: relative;
   background: url("./../assets/images/pattern-hills.svg") no-repeat bottom;
+  background-size: contain;
 }
 
 @media screen and (max-width: 400px) {
